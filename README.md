@@ -123,6 +123,14 @@ cd react-mfe-host
 pnpm dev    # Starts on port 5173
 ```
 
+
+## ✅ TODO
+
+- [ ] Vue Remote Component configure with Vite federation & integration with React host
+- [ ] Svelte Remote Component configure with Vite federation & integration with React host
+
+
+
 ### 📦 Build Tools & Module Federation
 
 - [Vite](https://vitejs.dev/) - Next generation frontend tooling for modern web development
