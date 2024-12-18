@@ -46,7 +46,7 @@ graph TD
         RF -->|Runtime Load| APP
     end
 
-    style B fill:#0000FF,stroke:#333,stroke-width:2px
+    style B fill:#0000FF,stroke:#333,stroke-width:2px,color:#fff
     style RF fill:#fff,stroke:#333,stroke-width:2px,color:#000
     style APP fill:#bfb,stroke:#333,stroke-width:2px,color:#000
 ```
@@ -123,13 +123,10 @@ cd react-mfe-host
 pnpm dev    # Starts on port 5173
 ```
 
-
 ## ✅ TODO
 
 - [ ] Vue Remote Component configure with Vite federation & integration with React host
 - [ ] Svelte Remote Component configure with Vite federation & integration with React host
-
-
 
 ### 📦 Build Tools & Module Federation
 
