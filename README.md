@@ -34,13 +34,13 @@ The following diagram illustrates how Module Federation enables component sharin
 graph TD
     subgraph "Remote App"
         B[Button Component]
-        RC[Remote Config]
+        RC[Remote Vite Config]
         B --> RC
         RC -->|Expose| RF[Federation Module]
     end
 
     subgraph "Host App"
-        HC[Host Config]
+        HC[Host Vite Config]
         APP[Main Application]
         HC -->|Import| RF
         RF -->|Runtime Load| APP
